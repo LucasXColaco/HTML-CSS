@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 200px;
+}
+
+header > h1{
+    font-family: 'Roboto Condensed', sans-serif;
+    padding-top: 45px;
+    font-size: 4em;
+    margin: 0px;
+}
+
+header > p > a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main > article > section{
+    font-family: 'Pacifico', cursive;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    font-size: 1.4em;
+}
+
+#img1{
+    background-image: url('imagens/background001.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#img1 > section{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.622);
+    width: 300px;
+    margin-left: 20px;
+}
+
+#img2{
+    background-image: url('imagens/background002.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#img2 > section{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.622);
+    width: 300px;
+    margin-left: 20px;
+}
